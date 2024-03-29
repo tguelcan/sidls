@@ -1,0 +1,11 @@
+{
+  "name": "sidls",
+  "version": "0.0.1",
+  "description": "sidls tailwindcss preset",
+  "repository": "https://github.com/tguelcan/sidls",
+  "author": "Tayfun Guelcan",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
