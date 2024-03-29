@@ -1,11 +1,29 @@
 {
   "name": "sidls",
   "version": "0.0.1",
-  "description": "sidls tailwindcss preset",
-  "repository": "https://github.com/tguelcan/sidls",
+  "description": "tailwindcss preset",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tguelcan/sidls.git"
+  },
   "author": "Tayfun Guelcan",
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tguelcan/sidls/issues"
+  },
+  "homepage": "https://github.com/tguelcan/sidls#readme",
+  "main": "preset/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tailwindcss",
+    "cssframework",
+    "appui",
+    "cssui",
+    "appcss"
+  ]
 }
