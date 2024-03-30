@@ -8,7 +8,7 @@ export default {
 			"@apply flex justify-center items-center": {},
 		},
 		"& .header": {
-			"@apply pt-4 px-4 sm:px-6": {},
+			"@apply pt-4 px-4 sm:px-6 sm:pt-6": {},
 		},
 		"&.plane": {
 			"@apply shadow-none": {},
@@ -17,7 +17,7 @@ export default {
 			"@apply p-4 sm:p-6": {},
 		},
 		"& .footer": {
-			"@apply pb-4 px-4 sm:px-6 mt-auto": {},
+			"@apply pb-4 px-4 sm:px-6 sm:pb-6 mt-auto": {},
 		},
 	},
 };

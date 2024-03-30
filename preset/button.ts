@@ -9,7 +9,7 @@ export default {
 			{},
 
 		"&:hover": {
-			"@apply bg-gray-100 text-primary disabled:bg-transparent disabled:text-primary/70":
+			"@apply bg-light text-primary disabled:bg-transparent disabled:text-primary/70":
 				{},
 		},
 		"&.primary": {
@@ -29,7 +29,7 @@ export default {
 		"&.bordered": {
 			"@apply ring-1 ring-light ring-inset shadow-sm": {},
 			"&:hover": {
-				"@apply bg-gray-100": {},
+				"@apply bg-light/50": {},
 			},
 		},
 	},
