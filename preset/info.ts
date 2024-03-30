@@ -1,6 +1,6 @@
 export default {
 	".info": {
-		"@apply overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-light px-4 py-3 sm:px-6 sm:py-4":
+		"@apply overflow-hidden rounded-lg bg-white ring-1 ring-light p-3 sm:px-6 sm:py-4":
 			{},
 		"& p": {
 			"@apply text-sm": {},
@@ -9,10 +9,17 @@ export default {
 			"@apply flex justify-center items-center text-center": {},
 		},
 		"&.icon": {
-			"@apply flex items-center space-x-4": {},
+			"@apply sm:flex items-start sm:space-x-4 space-y-1 sm:space-y-0":
+				{},
+			"& svg": {
+				"@apply sm:mt-0.5 mx-2 sm:mx-0": {},
+			},
 		},
 		"&.primary": {
 			"@apply bg-primary text-light": {},
+			"& .text-subtitle": {
+				"@apply text-white/50": {},
+			},
 		},
 	},
 };

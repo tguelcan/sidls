@@ -1,8 +1,11 @@
 import plugin from "tailwindcss/plugin";
-import buttons from "./buttons";
+import button from "./button";
+import badge from "./badge";
 import info from "./info";
+import tab from "./tab";
 import card from "./card";
 import utilities from "./utilities";
+import typo from "./typo";
 
 export default plugin(function ({
 	addComponents,
@@ -10,22 +13,11 @@ export default plugin(function ({
 	config,
 	addUtilities,
 }) {
-	addBase({
-		h1: {
-			"@apply text-2xl leading-none": {},
-		},
-		h2: {
-			"@apply text-xl leading-none": {},
-		},
-		h3: {
-			"@apply text-lg font-medium leading-none": {},
-		},
-		h4: {
-			"@apply text-base leading-none": {},
-		},
-	});
+	addBase(typo);
 	addUtilities(utilities);
-	addComponents(buttons);
+	addComponents(button);
+	addComponents(badge);
 	addComponents(info);
+	addComponents(tab);
 	addComponents(card);
 });

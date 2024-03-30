@@ -2,19 +2,22 @@ export default {
 	".card": {
 		"@apply overflow-hidden rounded-lg bg-white shadow flex flex-col": {},
 		"&.bordered": {
-			"@apply bg-light shadow-none border": {},
+			"@apply bg-white shadow-none ring-1 ring-light": {},
 		},
 		"&.center": {
 			"@apply flex justify-center items-center": {},
 		},
 		"& .header": {
-			"@apply px-4 py-2 sm:px-6 sm:py-4": {},
+			"@apply pt-4 px-4 sm:px-6": {},
+		},
+		"&.plane": {
+			"@apply shadow-none": {},
 		},
 		"& .body": {
-			"@apply px-4 sm:px-6": {},
+			"@apply p-4 sm:p-6": {},
 		},
 		"& .footer": {
-			"@apply p-4 sm:p-6 mt-auto": {},
+			"@apply pb-4 px-4 sm:px-6 mt-auto": {},
 		},
 	},
 };
