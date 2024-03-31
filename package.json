@@ -1,6 +1,6 @@
 {
   "name": "sidls",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "tailwindcss preset",
   "repository": {
     "type": "git",
@@ -8,9 +8,6 @@
   },
   "author": "Tayfun Guelcan",
   "license": "MIT",
-  "devDependencies": {
-    "tailwindcss": "^3.4.3"
-  },
   "bugs": {
     "url": "https://github.com/tguelcan/sidls/issues"
   },
@@ -25,5 +22,9 @@
     "appui",
     "cssui",
     "appcss"
-  ]
+  ],
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "tailwindcss": "^3.4.3"
+  }
 }

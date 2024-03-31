@@ -7,6 +7,7 @@ import card from "./card";
 import island from "./island";
 import utilities from "./utilities";
 import typo from "./typo";
+import form from "./form";
 
 export default plugin(function ({
 	addComponents,
@@ -22,4 +23,5 @@ export default plugin(function ({
 	addComponents(tab);
 	addComponents(card);
 	addComponents(island);
+	addComponents(form);
 });

@@ -3,7 +3,7 @@ export default {
 		"@apply font-medium leading-none": {},
 	},
 	".text-subtitle": {
-		"@apply text-sm text-primary/50 mt-0.5": {},
+		"@apply text-sm text-primary/50 mt-1": {},
 	},
 	".right": {
 		"@apply flex justify-end": {},

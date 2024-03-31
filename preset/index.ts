@@ -1,15 +1,14 @@
-import { zinc } from "tailwindcss/colors";
-
 import plugin from "./plugin";
+import forms from "@tailwindcss/forms";
 
 export default {
 	theme: {
 		extend: {
 			colors: {
-				light: zinc["100"],
-				primary: zinc["900"],
+				light: "#f4f4f5",
+				primary: "#111927",
 			},
 		},
 	},
-	plugins: [plugin],
+	plugins: [forms, plugin],
 };
