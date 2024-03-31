@@ -1,9 +1,9 @@
 export default {
 	h1: {
-		"@apply text-2xl leading-none": {},
+		"@apply text-2xl font-semibold leading-none": {},
 	},
 	h2: {
-		"@apply text-xl leading-none": {},
+		"@apply text-xl font-semibold leading-none": {},
 	},
 	h3: {
 		"@apply text-lg font-medium leading-none": {},
