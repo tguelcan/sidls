@@ -2,7 +2,7 @@ export default {
 	".footer": {
 		"@apply flex-col space-y-4 bg-white": {},
 		"& .navigation": {
-			"@apply flex flex-col items-center justify-start gap-3 text-sm sm:flex-row sm:gap-6":
+			"@apply flex flex-col items-start justify-start gap-3 text-sm sm:flex-row sm:gap-6":
 				{},
 			"& a": {
 				"@apply text-primary/75": {},
@@ -17,11 +17,11 @@ export default {
 		},
 
 		".center": {
-			"@apply justify-center": {},
+			"@apply justify-center items-center text-center": {},
 		},
 
 		".right": {
-			"@apply justify-end": {},
+			"@apply justify-end text-right": {},
 		},
 	},
 };

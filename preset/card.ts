@@ -16,7 +16,7 @@ export default {
 		"& .body": {
 			"@apply p-4 sm:p-6": {},
 		},
-		"& .footer": {
+		"& .bottom": {
 			"@apply pb-4 px-4 sm:px-6 sm:pb-6 mt-auto": {},
 		},
 	},
