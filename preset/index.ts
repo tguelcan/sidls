@@ -7,6 +7,7 @@ export default {
 			colors: {
 				light: "#f4f4f5",
 				primary: "#111927",
+				alert: "#ef4444",
 			},
 		},
 	},

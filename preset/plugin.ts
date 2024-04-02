@@ -8,6 +8,9 @@ import island from "./island";
 import utilities from "./utilities";
 import typo from "./typo";
 import form from "./form";
+import avatar from "./avatar";
+import navigation from "./navigation";
+import footer from "./footer";
 
 export default plugin(function ({
 	addComponents,
@@ -24,4 +27,7 @@ export default plugin(function ({
 	addComponents(card);
 	addComponents(island);
 	addComponents(form);
+	addComponents(avatar);
+	addComponents(navigation);
+	addComponents(footer);
 });
