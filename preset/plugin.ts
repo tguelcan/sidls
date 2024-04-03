@@ -11,6 +11,8 @@ import form from "./form";
 import avatar from "./avatar";
 import navigation from "./navigation";
 import footer from "./footer";
+import chat from "./chat";
+import table from "./table";
 
 export default plugin(function ({
 	addComponents,
@@ -30,4 +32,6 @@ export default plugin(function ({
 	addComponents(avatar);
 	addComponents(navigation);
 	addComponents(footer);
+	addComponents(chat);
+	addComponents(table);
 });

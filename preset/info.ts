@@ -21,5 +21,8 @@ export default {
 				"@apply text-white/50": {},
 			},
 		},
+		"&.alert": {
+			"@apply text-alert ring-alert": {},
+		},
 	},
 };

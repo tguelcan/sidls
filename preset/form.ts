@@ -4,7 +4,7 @@ export default {
 	},
 	"input[type='text'], [type='email'], input[type='password'], input[type='number'], input[type='url'], input[type='date'], input[type='datetime-local'], input[type='month'], input[type='week'], input[type='time'], input[type='search'], input[type='tel'], select, select[multiple], textarea":
 		{
-			"@apply block w-full disabled:bg-light disabled:placeholder-primary/30 disabled:border-primary/10 disabled:text-primary/30  rounded-md py-1 text-primary ring-0 transition-colors placeholder:text-primary/50 focus:border-primary/25 focus:ring-2 focus:ring-light sm:text-sm sm:leading-6":
+			"@apply block w-full border-primary/10 disabled:bg-light disabled:placeholder-primary/30 disabled:border-primary/10 disabled:text-primary/30  rounded-md py-1 text-primary ring-0 transition-colors placeholder:text-primary/50 focus:border-primary/25 focus:ring-2 focus:ring-light sm:text-sm sm:leading-6":
 				{},
 			"&.hint": {
 				"@apply border-alert": {},
@@ -39,7 +39,7 @@ export default {
 			{},
 	},
 	".icon-right": {
-		"@apply pointer-events-none absolute inset-y-0 end-0 flex items-center pe-2 text-primary/50 peer-disabled:pointer-events-none peer-disabled:opacity-50":
+		"@apply absolute inset-y-0 end-0 flex items-center pe-2 text-primary/50 peer-disabled:pointer-events-none peer-disabled:opacity-50":
 			{},
 	},
 	".input-icon-left": {
