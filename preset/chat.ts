@@ -10,13 +10,13 @@ export default {
 		"& .out": {
 			"@apply flex flex-col": {},
 			"& span": {
-				"@apply self-end text-primary py-1 text-sm": {},
+				"@apply self-end text-primary py-1 text-sm font-medium": {},
 			},
 			"& time": {
 				"@apply text-primary/50": {},
 			},
 			"& p": {
-				"@apply self-end rounded-lg bg-primary text-light p-3 text-left sm:ml-6 text-sm font-semibold":
+				"@apply self-end rounded-lg bg-primary text-light p-3 text-left sm:ml-6 text-sm":
 					{},
 			},
 			"& .image": {
@@ -27,10 +27,10 @@ export default {
 		"& .in": {
 			"@apply flex flex-col": {},
 			"& span": {
-				"@apply self-start text-primary py-1 text-sm": {},
+				"@apply self-start text-primary py-1 text-sm font-medium": {},
 			},
 			"& p": {
-				"@apply self-start rounded-lg bg-light p-3 text-left text-sm sm:mr-6 font-semibold":
+				"@apply self-start rounded-lg bg-light p-3 text-left text-sm sm:mr-6":
 					{},
 			},
 			"& time": {

@@ -1,11 +1,12 @@
 export default {
 	".navigation": {
-		"@apply flex items-center justify-between bg-white": {},
+		"@apply flex items-center justify-between bg-white pointer-events-auto":
+			{},
 		"&.round": {
 			"@apply  rounded-full p-4 shadow-sm": {},
 		},
 		"&.blurry": {
-			"@apply bg-white/85 backdrop-blur-sm": {},
+			"@apply bg-white/90 backdrop-blur-sm": {},
 		},
 		".brand": {
 			"@apply text-lg font-extrabold tracking-tight": {},

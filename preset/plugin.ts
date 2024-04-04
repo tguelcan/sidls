@@ -13,6 +13,7 @@ import navigation from "./navigation";
 import footer from "./footer";
 import chat from "./chat";
 import table from "./table";
+import layout from "./layout";
 
 export default plugin(function ({
 	addComponents,
@@ -34,4 +35,5 @@ export default plugin(function ({
 	addComponents(footer);
 	addComponents(chat);
 	addComponents(table);
+	addComponents(layout);
 });
