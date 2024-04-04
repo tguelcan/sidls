@@ -1,6 +1,6 @@
 <p>
   <a href="https://sidls.com" target="_blank">
-      <img alt="Sidls" src="https://raw.githubusercontent.com/sidls/HEAD/static/img/header.png" width="100%" style="max-width: 100%;">
+      <img alt="Sidls" src="https://raw.githubusercontent.com/tguelcan/sidls_docs/master/static/img/header.png" width="100%" style="max-width: 100%;">
   </a>
 </p>
 
