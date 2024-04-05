@@ -23,8 +23,15 @@ Then add the preset to your `tailwind.config.js` file:
 ```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+	// Customizations specific colors to this project
 	theme: {
-		// ...
+		extend: {
+			colors: {
+				light: "#f4f4f5",
+				primary: "#111927",
+				alert: "#ef4444",
+			},
+		},
 	},
 	preset: [
 		require("sidls"),
