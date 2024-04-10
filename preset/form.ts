@@ -6,10 +6,16 @@ export default {
 		{
 			"@apply block w-full border-primary/10 disabled:bg-light disabled:placeholder-primary/30 disabled:border-primary/10 disabled:text-primary/30  rounded-md py-1 text-primary ring-0 transition-colors placeholder:text-primary/50 focus:border-primary/25 focus:ring-2 focus:ring-light sm:text-sm sm:leading-6":
 				{},
-			"&.hint": {
+			"&.invalid": {
 				"@apply border-alert": {},
-				"&.text-subtitle": {
-					"@apply border-alert": {},
+				"+ .text-subtitle": {
+					"@apply border-alert text-alert": {},
+				},
+			},
+			"&.valid": {
+				"@apply border-success": {},
+				"+ .text-subtitle": {
+					"@apply border-success text-success": {},
 				},
 			},
 			"&.search": {

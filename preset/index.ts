@@ -8,6 +8,7 @@ export default {
 				light: "#f4f4f5",
 				primary: "#111927",
 				alert: "#ef4444",
+				success: "#65a30d"
 			},
 		},
 	},

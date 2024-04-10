@@ -16,7 +16,7 @@ export default {
 				"@apply text-primary/50": {},
 			},
 			"& p": {
-				"@apply self-end rounded-lg bg-primary text-light p-3 text-left sm:ml-6 text-sm":
+				"@apply self-end rounded-lg bg-primary text-light font-light p-3 text-left sm:ml-6 text-sm":
 					{},
 			},
 			"& .image": {
@@ -30,7 +30,7 @@ export default {
 				"@apply self-start text-primary py-1 text-sm font-medium": {},
 			},
 			"& p": {
-				"@apply self-start rounded-lg bg-light p-3 text-left text-sm sm:mr-6":
+				"@apply self-start rounded-lg bg-light p-3 text-left text-sm sm:mr-6 font-light":
 					{},
 			},
 			"& time": {

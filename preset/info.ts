@@ -24,5 +24,8 @@ export default {
 		"&.alert": {
 			"@apply text-alert ring-alert": {},
 		},
+		"&.success": {
+			"@apply text-success ring-success": {},
+		},
 	},
 };
