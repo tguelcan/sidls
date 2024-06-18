@@ -1,6 +1,6 @@
 {
   "name": "sidls",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "tailwindcss preset",
   "repository": {
     "type": "git",
@@ -16,13 +16,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "tailwindcss",
-    "cssframework",
-    "appui",
-    "cssui",
-    "appcss"
-  ],
+  "keywords": ["tailwindcss", "cssframework", "appui", "cssui", "appcss"],
   "dependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "tailwindcss": "^3.4.3"
